@@ -41,7 +41,7 @@ actor {
         return "Marks entered";
     };
 
-    public shared query func getMarksById(rollNo: Text): async ?MarksDet {
-        return Array.find<MarksDet>(stuMarks, func x = x.rollNo == rollNo);
-    };
+    // public shared query func getMarksById(rollNo: Text): async ?MarksDet {
+    //     return Array.find<MarksDet>(stuMarks, func x = x.rollNo == rollNo);
+    // };
 };
